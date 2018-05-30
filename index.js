@@ -182,7 +182,6 @@ window.onload = function initMap() {
         dataCircle(event.feature.getProperty('BoroCD'));
         let a =  ComName(event.feature.getProperty('BoroCD'));
         document.getElementById("boro").innerHTML = a;
-        alert(event.feature.getProperty('BoroCD'));
 
     });
 
